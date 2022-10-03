@@ -97,3 +97,7 @@ input[type=text] {
   border: none;
   width:100%;
 }
+
+.notification {
+  color:#18aa18;
+}

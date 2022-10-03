@@ -8,8 +8,17 @@ console.log(todayHour);
 
 // save button
 var save = document.getElementById("saveBtn");
-function saveData(){
+function saveData() {
     var inputData = document.getElementById("message");
+    var savesdData = ("Saved reminder to Local Storage!")
     localStorage.setItem('Reminder', inputData.value);
+    // notifcation 
+    $('#savesData').text(savesdData);
+    function clearText() {
+        document.getElementById('savesData').innerHTML = "";
+    }
+    setTimeout(clearText, 6000);
+
 }
 save.addEventListener("click", saveData);
+
