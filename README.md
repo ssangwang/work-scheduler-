@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-Visit this link to view website: https://ssangwang.github.io/Module-3-Challenge/
+Visit this link to view website: https://ssangwang.github.io/work-scheduler-/
 
 -Insert Reminder that you would like into text box at the time you would like
 
